@@ -8,4 +8,4 @@ Codded in HTML5, CSS3 and Bootstrap
 
 <h2>Screen Gif</h2>
 
-![](images/screen1.gif)
+![](screen1.gif)
