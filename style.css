@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@500&display=swap');
+:root{
+    --primary-color:crimson;
+    --text-color:#fff;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+    
+}
+
+body{
+   
+    font-family: "Changa", sans-serif;
+}
+body::before{
+    content: "";
+    display: block;
+    height: 90px;
+   
+}
+a{
+    color: var(--text-color);
+    text-decoration: none!important;
+    list-style: none!important; 
+}
+
+/* header */
+
+.imgSlider{
+    height: 800px;
+}
+
+/* about us */
+.cizgi{
+    display: inline-block;
+    align-items: center;
+    margin-bottom: 15px;
+    border-top: 5px solid #343a40;
+    width: 250px;
+}
+
+.leaf{
+    position: relative;
+    top: -34px;
+    border: 10px solid #f2f2f2;
+    font-size: 45px!important;
+}
+
+/* our team */
+.ekipCard{
+    transition: all .5s ease-in-out;
+}
+.ekipCard:hover{
+    opacity: .8;
+    transform: scaleY(1.03);
+}
+
+/* contact */
+
+.textArea{
+    resize: none;
+}
+
+/* footer */
+.icons{
+    font-size: 1.1rem;
+    transition: .5s ease-in-out;
+}
+.icons:hover{
+    color: var(--primary-color)!important;
+    transform: scaleY(.9);
+}
